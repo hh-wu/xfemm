@@ -72,6 +72,10 @@ in a different location, you'll need to tell cmake where to find it:
     cmake . -DCMAKE_PREFIX_PATH=<triangle install dir>
     make
 
+---
+注意，windows下使用msys2编译，然后注意将triangle里的long替换成__int64。比较优雅的办法是使用自己修改过的triangle。
+---
+
 ## Compiling Matlab Interface
 
 Detailed instructions for compiling the Matlab inteface can be found in
